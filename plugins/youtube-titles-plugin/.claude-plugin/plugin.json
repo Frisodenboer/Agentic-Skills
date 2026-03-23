@@ -1,0 +1,5 @@
+{
+  "name": "youtube-titles",
+  "description": "Generates 10 YouTube title suggestions for a video topic",
+  "version": "1.0.0"
+}

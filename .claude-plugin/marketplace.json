@@ -1,0 +1,20 @@
+{
+  "name": "agent-marketplace",
+  "owner": {
+    "name": "Friso den Boer"
+  },
+  "metadata": {
+    "description": "A collection of Claude Code agent skills by Friso den Boer"
+  },
+  "plugins": [
+    {
+      "name": "youtube-titles",
+      "source": "./plugins/youtube-titles-plugin",
+      "description": "Generates 10 YouTube title suggestions for a video topic",
+      "version": "1.0.0",
+      "author": {
+        "name": "Friso den Boer"
+      }
+    }
+  ]
+}
