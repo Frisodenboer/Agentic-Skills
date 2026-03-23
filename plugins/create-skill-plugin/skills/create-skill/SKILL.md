@@ -3,7 +3,6 @@ name: create-skill
 description: Scaffold a new skill in the Agentic Skills marketplace structure. Use when the user wants to create a new skill, add a plugin, or build a new capability for the marketplace.
 argument-hint: <skill-name> [short description]
 disable-model-invocation: true
-allowed-tools: Read, Write, Bash
 ---
 
 Create a new skill in this Agentic Skills marketplace repository.
