@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-marketplace",
+  "description": "Agentic Skills marketplace with plugins and skills for Claude Code",
+  "owner": {
+    "name": "Frisodenboer"
+  },
+  "plugins": [
+    {
+      "name": "create-skill",
+      "description": "Scaffolds a new skill in the Agentic Skills marketplace structure",
+      "source": "./plugins/create-skill-plugin",
+      "category": "development"
+    },
+    {
+      "name": "youtube-titles",
+      "description": "Generates 10 YouTube title suggestions for a video topic",
+      "source": "./plugins/youtube-titles-plugin",
+      "category": "productivity"
+    }
+  ]
+}
