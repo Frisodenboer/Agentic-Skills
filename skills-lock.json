@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "youtube-titles": {
+      "source": "Frisodenboer/Agentic-Skills",
+      "sourceType": "github",
+      "computedHash": "edf38708cea2ff2bf87357216f7b46150e80498edc82283e107c2ec51b71d3ef"
+    },
+    "create-skill": {
+      "source": "Frisodenboer/Agentic-Skills",
+      "sourceType": "github",
+      "computedHash": ""
+    }
+  }
+}

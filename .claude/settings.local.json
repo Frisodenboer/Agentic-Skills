@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Claude Code Projects/Agentic Skills/plugins/create-skill-plugin/.claude-plugin\")",
+      "Bash(mkdir -p \"C:/Claude Code Projects/Agentic Skills/plugins/create-skill-plugin/skills/create-skill\")"
+    ]
+  }
+}
