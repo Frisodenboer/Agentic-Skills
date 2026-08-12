@@ -1,22 +1,31 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "agent-marketplace",
-  "description": "Agentic Skills marketplace with plugins and skills for Claude Code",
+  "description": "Agent skills for Claude Code, installable individually",
   "owner": {
-    "name": "Frisodenboer"
+    "name": "Frisodenboer",
+    "url": "https://github.com/Frisodenboer"
   },
   "plugins": [
     {
-      "name": "create-skill",
-      "description": "Scaffolds a new skill in the Agentic Skills marketplace structure",
-      "source": "./plugins/create-skill-plugin",
-      "category": "development"
+      "name": "youtube-titles",
+      "description": "Generates 10 browse-optimized YouTube title suggestions for a video topic",
+      "source": "./",
+      "skills": ["./skills/youtube-titles"],
+      "strict": false,
+      "category": "productivity",
+      "keywords": ["youtube", "titles", "seo", "content"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
     },
     {
-      "name": "youtube-titles",
-      "description": "Generates 10 YouTube title suggestions for a video topic",
-      "source": "./plugins/youtube-titles-plugin",
-      "category": "productivity"
+      "name": "create-skill",
+      "description": "Scaffolds a new skill in this marketplace's structure",
+      "source": "./",
+      "skills": ["./skills/create-skill"],
+      "strict": false,
+      "category": "development",
+      "keywords": ["scaffold", "skills", "authoring"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
     }
   ]
 }
