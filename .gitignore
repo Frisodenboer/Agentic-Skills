@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+# Local OAuth credentials / tokens
+credentials.json
+token.json
+config.json

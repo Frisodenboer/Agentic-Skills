@@ -1,0 +1,5 @@
+{
+  "enabledPlugins": {
+    "create-skill@agent-marketplace": true
+  }
+}
