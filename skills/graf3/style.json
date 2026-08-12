@@ -1,0 +1,222 @@
+{
+  "skill": "Graf3",
+  "version": "v1",
+  "style_name": "Spray-Cartoon Character (Street Mascot Burner)",
+  "one_liner": "Flat cell-shaded cartoon-character graffiti — thick black brushy outlines, a single bright orange/peach rim-halo outline tracing the silhouette, sawtooth-spiked fur edges, pink lightning-bolt exertion sparks, on a flat dark charcoal wall.",
+  "lineage": {
+    "primary": [
+      "New York character-mural lineage — Cope2 rats, T-Kid, Skeme, Sento",
+      "Bronx / Brooklyn graf-cartoon tradition — Mighty Mo, Smith, Cope2 mascot rats",
+      "European cartoon-mural school — Os Gemeos, Pjotr, Bart Smeets, Mr. Wany",
+      "Graffiti character-piece tradition (1990s-2010s) — solid black outline, single rim-glow, flat cell-shade cartooning"
+    ],
+    "feel": "Cheeky, menacing, kinetic street-mascot. NOT a polished vector. NOT a wildstyle letter piece. A spray-and-bucket cartoon character on a wall."
+  },
+  "subject_format": {
+    "type": "single_character_or_creature",
+    "examples": [
+      "snarling rat with cheese (reference)",
+      "sneering bulldog with bone",
+      "wild-eyed crow with a spray can",
+      "pissed-off bee with a hammer",
+      "grimy gremlin with a lock-pick",
+      "sly fox with a stolen sandwich"
+    ],
+    "pose_traits": [
+      "low and prowling, or perched and scheming",
+      "side-profile or three-quarter view (NOT front-on)",
+      "exaggerated body language — hunched shoulders, locked jaw, beady eyes",
+      "an object held in mouth, paw, or hand (food, weapon, prop) for narrative hook",
+      "horizontal composition — character runs left-to-right across the canvas"
+    ],
+    "what_to_avoid": [
+      "no letters, no wordmarks, no graffiti-tag text in the piece",
+      "no polished 3D render look, no Pixar smoothness, no realistic fur",
+      "no sharp vector geometry — this is hand-painted spray-and-brush cartooning"
+    ]
+  },
+  "linework": {
+    "primary_outline": {
+      "color_name": "Charcoal-black",
+      "hex": "#0F0F12",
+      "width_pct_of_figure_height": "2.0 - 3.0",
+      "style": "Confident brushy aerosol-marker line, slight thickness variation, organic — NOT a uniform vector stroke",
+      "rule": "Wraps the entire silhouette and every internal feature (face details, paws, fur clusters, mouth, teeth, held objects, body separations)"
+    },
+    "rim_halo_outline": {
+      "color_name": "Bright orange-peach",
+      "hex": "#F08C42",
+      "width_pct_of_figure_height": "0.8 - 1.4",
+      "position": "Sits just outside the black primary outline, traces the entire OUTER silhouette only (NOT internal features)",
+      "rule": "Single continuous rim-glow ring — NOT a multi-band stack, NOT a gradient halo. Hard-edged, flat, and even in width.",
+      "purpose": "This is the Graf3 signature. It locks the character to the dark wall, gives it a comic-book pop, and reads as the giveaway 'this is a graf character piece' detail."
+    },
+    "internal_detail_lines": {
+      "color_name": "Charcoal-black",
+      "hex": "#0F0F12",
+      "rule": "All internal anatomy (mouth shape, teeth gaps, eye outlines, paw-pad divisions, fur tufts, ear creases) drawn with thinner versions of the primary brushy line — never colored interior lines"
+    }
+  },
+  "fills": {
+    "technique": "Flat cell-shaded — TWO to THREE flat tonal zones per body-part, NOT smooth gradients, NOT airbrushed blends. Each zone is a single even color separated by a hard edge.",
+    "shadow_strategy": "A darker tone of the same hue applied as a flat shape on the underside / away-from-light side of each form (under belly, under head, far leg, inside ear, under jaw). Hard-edged, no soft blend.",
+    "highlight_strategy": "Optional — sometimes a single lighter-tone flat shape on top-facing surfaces (top of head, top of haunch). Used sparingly. Most highlight reading comes from leaving the midtone exposed against the shadow.",
+    "no_no": [
+      "no airbrushed gradient inside fills",
+      "no photoreal texture inside fills",
+      "no hatching or cross-hatching",
+      "no halftone dots inside fills"
+    ]
+  },
+  "palette": {
+    "default_creature_palette_grey_rat": {
+      "fur_midtone": {"name": "Spray-grey", "hex": "#9A9AA0"},
+      "fur_shadow": {"name": "Deep slate-grey", "hex": "#5E5E66"},
+      "fur_highlight": {"name": "Light spray-grey", "hex": "#B8B8BE"},
+      "skin_pink": {"name": "Salmon-pink", "hex": "#F2B0B8"},
+      "skin_pink_shadow": {"name": "Mauve-pink", "hex": "#C58088"},
+      "eye_white": {"name": "Hard white", "hex": "#FFFFFF"},
+      "teeth_white": {"name": "Hard white", "hex": "#FFFFFF"},
+      "primary_outline": {"name": "Charcoal-black", "hex": "#0F0F12"},
+      "rim_halo_outline": {"name": "Bright orange-peach", "hex": "#F08C42"},
+      "lightning_accent": {"name": "Salmon-pink", "hex": "#F2B0B8"},
+      "background": {"name": "Charcoal wall", "hex": "#1A1A1E"}
+    },
+    "alt_palettes": {
+      "olive_gremlin": {
+        "midtone": "#7C8A4E",
+        "shadow": "#4A5230",
+        "highlight": "#A4B266",
+        "skin_accent": "#E8C8A0",
+        "rim_halo_outline": "#F08C42"
+      },
+      "rust_dog": {
+        "midtone": "#B27040",
+        "shadow": "#6E3A1C",
+        "highlight": "#D89060",
+        "skin_accent": "#F2D8B0",
+        "rim_halo_outline": "#5BD4E8"
+      },
+      "ink_crow": {
+        "midtone": "#2A2A30",
+        "shadow": "#0E0E12",
+        "highlight": "#4A4A52",
+        "skin_accent": "#F2C530",
+        "rim_halo_outline": "#F2C530"
+      },
+      "toxic_bee": {
+        "midtone": "#F2C530",
+        "shadow": "#A48218",
+        "highlight": "#FFE070",
+        "skin_accent": "#FFFFFF",
+        "rim_halo_outline": "#5BD4E8"
+      }
+    },
+    "rim_halo_color_rule": "Default rim-halo is bright orange-peach #F08C42. Swap to cyan #5BD4E8 or yellow #F2C530 only if the body palette shares orange (e.g. rust_dog, toxic_bee) — pick a complementary that POPS off both the body AND the dark wall."
+  },
+  "silhouette_treatment": {
+    "fur_or_feather_edge": "Sawtooth-spiked silhouette along the back, head crown, shoulders, haunches, and tail base — fur is implied by the EDGE of the silhouette being jagged and irregular, not by painting individual hairs",
+    "spike_geometry": "Triangular tufts of varying length, 3-12% of the local body diameter, clustered in 2-5 spike groups along major contours",
+    "soft_zones": "Belly, paw bottoms, snout, inside-ear, and tail tip read as smooth-curved silhouette (no spikes)",
+    "rule": "The silhouette tells half the story — make it instantly readable as the creature even if you blacked everything inside."
+  },
+  "highlights_and_accents": {
+    "lightning_bolt_sparks": {
+      "shape": "Three- to four-segment zig-zag lightning-bolt shapes (classic comic-book exertion / impact mark)",
+      "color": "Salmon-pink #F2B0B8 with a thin black outline",
+      "quantity": "3 to 6 across the figure",
+      "placement": "On joints under stress, behind/around the head, near gripped objects — places where a comic artist would draw motion or effort emphasis",
+      "size_pct_of_figure_height": "4 - 10"
+    },
+    "eye_treatment": {
+      "shape": "Wedge-shaped or angled-rectangle angry eyes — half-closed predator stare",
+      "color_fill": "Hard white #FFFFFF",
+      "outline": "Charcoal-black #0F0F12 brushy line",
+      "pupil": "Optional — if present, a small black dot or short hard-edged slit; often omitted entirely for a more menacing all-white look"
+    },
+    "tooth_treatment": {
+      "shape": "Hard triangular fangs / blocky chompers, not realistic dentition",
+      "color_fill": "Hard white #FFFFFF",
+      "outline": "Charcoal-black #0F0F12 brushy line",
+      "rule": "If the mouth is open or gripping something, lock the teeth ONTO the object — they should bite into it visually, not float near it"
+    },
+    "skin_accents": {
+      "where": "Inner ears, nose tip, paw pads, tail underside, tongue, snout interior",
+      "color": "Salmon-pink #F2B0B8",
+      "shadow_color": "Mauve-pink #C58088",
+      "rule": "Pink skin accents are a critical chromatic punch against the grey body — every Graf3 creature gets at least 3-5 pink-skin moments"
+    },
+    "no_starbursts": "Graf3 does NOT use star-burst chrome reflections (that's Graf1/Graf2). The lightning-bolt sparks replace them.",
+    "no_drips": "Graf3 does NOT use letter-style drip accents — the cartoon character does not drip paint. Spray-can splatter is also absent or near-absent."
+  },
+  "depth_and_dimensionality": {
+    "drop_shadow": "None — the figure does NOT cast a separate ground shadow. The dark wall background is its only shadow context.",
+    "extrusion_or_3d_block": "None — Graf3 is FLAT 2D cell-shading. No 3D block, no extrusion, no bevel.",
+    "depth_cues": [
+      "internal flat shadow shapes (fur shadow, jaw shadow, far-leg shadow)",
+      "occlusion overlap between body parts (near leg crosses far leg, near ear crosses head)",
+      "size scaling of held objects (cheese in foreground reads slightly larger / brighter than tail in background)"
+    ]
+  },
+  "background": {
+    "type": "Flat dark charcoal wall",
+    "hex": "#1A1A1E",
+    "texture": "Subtle and OPTIONAL — a faint concrete-wall haze or roller-paint mottling at very low contrast (within +/- 8 of the base value). Mostly reads as flat dark.",
+    "no_no": [
+      "no white background (Graf1 is white, Graf3 is dark wall)",
+      "no brick wall, no plywood, no metal panel, no graffiti-on-graffiti background",
+      "no sky, no horizon, no ground plane, no floor",
+      "no environmental context, no other tags, no street furniture",
+      "no isolated transparent / studio-clean background"
+    ],
+    "rule": "The dark charcoal wall is part of the look. The orange rim-halo outline pops off it. Without the dark wall, the rim-halo loses its purpose."
+  },
+  "atmosphere_and_lighting": {
+    "lighting_model": "Implied flat-cartoon directional light from upper-left — defines which body zones get the lighter midtone vs. the flat shadow tone",
+    "atmospheric_glow": "None — no ambient glow, no halo aura behind the figure, no overspray mist. The rim-halo outline does the popping work.",
+    "spray_can_evidence": "Minimal. The medium reads as marker-and-bucket-paint cartooning more than aerosol fade. Avoid heavy speckle / overspray — that drags it toward Graf1 territory."
+  },
+  "composition": {
+    "format": "Horizontal banner — character runs left to right across the canvas",
+    "default_aspect_ratio": "16:9",
+    "default_resolution_px": "3840x2160",
+    "character_fill_pct": {
+      "width": "70 - 88",
+      "height": "55 - 75"
+    },
+    "negative_space_rule": "Leave 8-15% breathing room above and below the character. Held props (cheese, bone, etc.) can extend into the left or right margin.",
+    "baseline_rule": "Character anchors to the lower-middle band of the canvas, not floating dead-center. Slight downward weight reads as 'on the ground'.",
+    "view_angle": "Side profile or three-quarter view. NEVER front-on / face-the-camera (that flattens the silhouette)."
+  },
+  "mood": {
+    "primary": "Cheeky, menacing, kinetic — a street-mascot up to no good",
+    "secondary": "Confident, comic-book bold, slightly lawless",
+    "avoid": ["cute / kawaii", "polished corporate mascot", "realistic", "horror / gore", "vector-clean"]
+  },
+  "anti_patterns": {
+    "do_not": [
+      "do not render letters or words anywhere in the piece",
+      "do not use chrome-metallic fills (that's Graf2)",
+      "do not use multi-stop aerosol gradient fills (that's Graf1)",
+      "do not use a pure white studio background (that's Graf1)",
+      "do not use a star-burst sparkle (use the lightning-bolt mark instead)",
+      "do not add a 3D drop-block or bevel (Graf3 is flat 2D)",
+      "do not add radial halo aura behind the character (the rim-halo outline replaces it)",
+      "do not paint individual fur hairs (use the sawtooth silhouette technique)",
+      "do not add overspray drips from the figure",
+      "do not photograph it on a brick / concrete / textured wall — flat charcoal only",
+      "do not include any signature, watermark, or tag in the prompt — signing is a post-step"
+    ]
+  },
+  "prompt_skeleton": {
+    "open": "Ultra-detailed flat cell-shaded cartoon-character graffiti mural in the Graf3 spray-cartoon style, rendered on a flat dark charcoal wall background (#1A1A1E) — no letters, no wordmarks, no tags, no environmental context.",
+    "subject_slot": "{SUBJECT_DESCRIPTION_WITH_POSE_AND_PROP}",
+    "linework": "Thick confident charcoal-black (#0F0F12) brushy aerosol-marker outline wrapping the entire silhouette and every internal feature, organic varying line-weight, NOT a uniform vector stroke. A single bright orange-peach (#F08C42) rim-halo outline tracing the OUTER silhouette only, hard-edged and even-width, sitting just outside the black outline.",
+    "fills": "Flat cell-shaded fills — two to three flat tonal zones per body-part with hard-edged shadow shapes, NO gradients, NO airbrushed blends. {PALETTE_DESCRIPTION}.",
+    "silhouette": "Sawtooth-spiked fur (or feather) silhouette along the back, head crown, shoulders, haunches, and tail base — fur implied by jagged silhouette edge, NOT painted hairs. Smooth-curve silhouette on belly, snout, paw pads, inner ears.",
+    "accents": "Three to six salmon-pink (#F2B0B8) lightning-bolt zig-zag exertion sparks scattered around joints and behind the head, each with a thin black outline. Hard-white (#FFFFFF) wedge-shaped angry eyes outlined in black, no pupils. Hard-white triangular fangs locked onto the held object. Salmon-pink skin accents on inner ears, nose tip, paw pads, tail underside.",
+    "background_lock": "Flat dark charcoal wall background (#1A1A1E), subtle concrete-haze at very low contrast or fully flat. NO brick, NO plywood, NO white background, NO sky, NO horizon, NO floor, NO other tags, NO graffiti context behind the character.",
+    "framing": "Horizontal 16:9 composition, character running left-to-right across the canvas filling 70-85% of the width, side-profile or three-quarter view, anchored to the lower-middle band of the canvas. Gallery-grade Samsung Frame TV mural-character presentation, ultra-detailed.",
+    "close": "no text, no watermarks"
+  }
+}

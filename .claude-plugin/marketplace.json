@@ -26,6 +26,176 @@
       "category": "development",
       "keywords": ["scaffold", "skills", "authoring"],
       "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "abstract-expressionist",
+      "description": "Generates bold abstract expressionist paintings with interlocking color shapes and gestural brushwork",
+      "source": "./",
+      "skills": ["./skills/abstract-expressionist"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["art", "abstract", "painting", "color-field", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "adobe-review",
+      "description": "Reviews images and their metadata CSV against Adobe Stock submission standards before upload",
+      "source": "./",
+      "skills": ["./skills/adobe-review"],
+      "strict": false,
+      "category": "productivity",
+      "keywords": ["adobe-stock", "metadata", "keywords", "compliance", "review"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "analyze-style",
+      "description": "Extracts typography, color, layout, and brand voice from a PDF into a reusable style report",
+      "source": "./",
+      "skills": ["./skills/analyze-style"],
+      "strict": false,
+      "category": "design",
+      "keywords": ["pdf", "brand", "style-guide", "typography", "analysis"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "art-from-reference",
+      "description": "Generates new stylized artwork inspired by a reference image",
+      "source": "./",
+      "skills": ["./skills/art-from-reference"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["art", "reference", "style-transfer", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "atmospheric-cityscape",
+      "description": "Generates panoramic impressionist cityscape paintings with luminous skylines and water reflections",
+      "source": "./",
+      "skills": ["./skills/atmospheric-cityscape"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["art", "cityscape", "landscape", "impressionist", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "exp-world-map",
+      "description": "Generates abstract expressionist world map paintings with recognizable continents",
+      "source": "./",
+      "skills": ["./skills/exp-world-map"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["art", "map", "abstract", "cartography", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "graf1",
+      "description": "Generates wildstyle graffiti pieces with aerosol gradient fills on a pure white background",
+      "source": "./",
+      "skills": ["./skills/graf1"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["graffiti", "wildstyle", "street-art", "art", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "graf2",
+      "description": "Generates chrome-metallic blockbuster graffiti pieces on a dark background",
+      "source": "./",
+      "skills": ["./skills/graf2"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["graffiti", "chrome", "blockbuster", "street-art", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "graf3",
+      "description": "Generates spray-cartoon graffiti character mascots on a flat charcoal wall",
+      "source": "./",
+      "skills": ["./skills/graf3"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["graffiti", "character", "mascot", "street-art", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "home-visual",
+      "description": "Composites an artwork into AI-generated interior rooms for lifestyle mockups",
+      "source": "./",
+      "skills": ["./skills/home-visual"],
+      "strict": false,
+      "category": "design",
+      "keywords": ["mockup", "interior", "lifestyle", "compositing", "product"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "instagram",
+      "description": "Crops and exports existing images to Instagram's feed, Story, and profile dimensions",
+      "source": "./",
+      "skills": ["./skills/instagram"],
+      "strict": false,
+      "category": "productivity",
+      "keywords": ["instagram", "social-media", "resize", "crop", "export"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "nano-image",
+      "description": "Generates images with Google's Gemini image model via the @google/genai SDK",
+      "source": "./",
+      "skills": ["./skills/nano-image"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["image-generation", "gemini", "google", "ai", "art"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "optimize-image",
+      "description": "Converts and compresses images to WebP for web use, reporting the size savings",
+      "source": "./",
+      "skills": ["./skills/optimize-image"],
+      "strict": false,
+      "category": "development",
+      "keywords": ["webp", "optimization", "images", "performance", "web"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "pastoral-frame",
+      "description": "Generates post-impressionist rural landscapes with patchwork fields and dusk skies",
+      "source": "./",
+      "skills": ["./skills/pastoral-frame"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["art", "landscape", "pastoral", "impressionist", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "pen-coastal",
+      "description": "Generates pen-and-ink coastal illustrations with offset-registration screen-print color",
+      "source": "./",
+      "skills": ["./skills/pen-coastal"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["illustration", "pen-and-ink", "coastal", "screen-print", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "pen-ink-bw",
+      "description": "Generates black-and-white pen-and-ink illustrations of any subject on pure white",
+      "source": "./",
+      "skills": ["./skills/pen-ink-bw"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["illustration", "pen-and-ink", "monochrome", "line-art", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "zai-image",
+      "description": "Generates images with Zhipu AI's GLM-Image API",
+      "source": "./",
+      "skills": ["./skills/zai-image"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["image-generation", "zhipu", "glm", "ai", "art"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
     }
   ]
 }
