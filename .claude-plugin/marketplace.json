@@ -158,6 +158,36 @@
       "repository": "https://github.com/Frisodenboer/Agentic-Skills"
     },
     {
+      "name": "veo31",
+      "description": "Generates premium high-performance videos with Google's full Veo 3.1 model via the Gemini API",
+      "source": "./",
+      "skills": ["./skills/veo31"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["video-generation", "veo", "gemini", "google", "ai"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "veo3lite-video",
+      "description": "Generates videos with Google's Veo 3.1 model family (full, Fast, Lite) via the Gemini API",
+      "source": "./",
+      "skills": ["./skills/veo3lite-video"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["video-generation", "veo", "gemini", "google", "ai"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "veo3-prompt-director",
+      "description": "Translates a storyline or beat sheet into cinematic, audio-designed Veo 3 video-generation prompts",
+      "source": "./",
+      "skills": ["./skills/veo3-prompt-director"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["prompt-engineering", "veo", "video-generation", "director", "storytelling"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
       "name": "pastoral-frame",
       "description": "Generates post-impressionist rural landscapes with patchwork fields and dusk skies",
       "source": "./",
@@ -185,6 +215,26 @@
       "strict": false,
       "category": "creative",
       "keywords": ["illustration", "pen-and-ink", "monochrome", "line-art", "image-generation"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "zai-prompt-director",
+      "description": "Translates a storyline or beat sheet into cinematic Z.AI/CogVideoX video-generation prompts",
+      "source": "./",
+      "skills": ["./skills/zai-prompt-director"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["prompt-engineering", "cogvideox", "zhipu", "video-generation", "director"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "zai-video",
+      "description": "Generates videos using Z.AI's CogVideoX model via their async video API",
+      "source": "./",
+      "skills": ["./skills/zai-video"],
+      "strict": false,
+      "category": "creative",
+      "keywords": ["video-generation", "cogvideox", "zhipu", "ai"],
       "repository": "https://github.com/Frisodenboer/Agentic-Skills"
     },
     {

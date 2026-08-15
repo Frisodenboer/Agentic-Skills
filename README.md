@@ -40,6 +40,16 @@ Each generates a new original piece in a fixed house style, at 3840x2160 (16:9) 
 | `instagram` | `/instagram <image>` | Crops an existing image to Instagram feed, Story/Reel, and profile sizes |
 | `home-visual` | `/home-visual <artwork>` | Composites the exact artwork into AI-generated interior rooms (Pillow, not AI approximation) |
 
+### Video tooling
+
+| Skill | Invoke | What it does |
+| :--- | :--- | :--- |
+| `veo31` | `/veo31 <prompt>` | Premium high-performance Veo 3.1 video, with native synced audio. Needs `GEMINI_API_KEY` — costs real money, always confirms before generating |
+| `veo3lite-video` | `/veo3lite-video <prompt>` | Veo 3.1 video generation across the full/Fast/Lite model family. Needs `GEMINI_API_KEY` |
+| `veo3-prompt-director` | `/veo3-prompt-director <storyline>` | Turns a storyline or beat sheet into cinematic, audio-designed prompts for `veo3lite-video` |
+| `zai-video` | `/zai-video <prompt>` | Generates videos via Z.AI's CogVideoX async API. Needs `ZHIPU_API_KEY` |
+| `zai-prompt-director` | `/zai-prompt-director <storyline>` | Turns a storyline or beat sheet into cinematic prompts for `zai-video` |
+
 ### Content and review
 
 | Skill | Invoke | What it does |
