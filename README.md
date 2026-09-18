@@ -58,6 +58,7 @@ Each generates a new original piece in a fixed house style, at 3840x2160 (16:9) 
 | `adobe-review` | `/adobe-review` | Audits images and their metadata CSV against Adobe Stock's submission rules before upload |
 | `analyze-style` | `/analyze-style <pdf>` | Extracts typography, color, imagery, and brand voice from a PDF into a style report |
 | `create-skill` | `/create-skill <name> [description]` | Scaffolds a new skill in this repo's structure and registers it in the marketplace |
+| `vercel-optimize` | `/vercel-optimize` | Finds what a Vercel-hosted Next.js app spends per deploy — egress, ISR writes, image transforms, function CPU — before the quota runs out |
 
 ## Layout
 

@@ -246,6 +246,16 @@
       "category": "creative",
       "keywords": ["image-generation", "zhipu", "glm", "ai", "art"],
       "repository": "https://github.com/Frisodenboer/Agentic-Skills"
+    },
+    {
+      "name": "vercel-optimize",
+      "description": "Audits a Vercel-hosted Next.js app for per-deploy egress, ISR writes, image transformations, and function CPU before deploying",
+      "source": "./",
+      "skills": ["./skills/vercel-optimize"],
+      "strict": false,
+      "category": "development",
+      "keywords": ["vercel", "nextjs", "egress", "quota", "performance", "cost"],
+      "repository": "https://github.com/Frisodenboer/Agentic-Skills"
     }
   ]
 }
